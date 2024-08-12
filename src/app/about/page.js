@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     const router = useRouter();
     const handleClick = (name) => {
         router.push(name);
@@ -18,4 +18,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
