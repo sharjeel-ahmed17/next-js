@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react'
 // import { useRouter } from 'next/navigation';
-const page = () => {
+const Page = () => {
   // const router = useRouter();
   const [name, setName] = useState("anil");
   const apple = () => {
@@ -52,7 +52,7 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 
 
 const User = ({ title }) => {
