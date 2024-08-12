@@ -20,6 +20,8 @@ const Page = () => {
 
     <div>
 
+      <button >color</button>
+
       {/* <User title="user 1" />
       <User title="usman" />
       <User title="arsalan" />
